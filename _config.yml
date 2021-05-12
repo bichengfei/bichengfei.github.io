@@ -15,14 +15,12 @@ timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: 成飞                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 好好学习，天天向上   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  19年毕业于湖北文理学院，计算机科学与技术专业，主要从事 java 开发，对大数据些许涉猎，现京都打工
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://bichengfei.github.io'
