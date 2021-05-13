@@ -30,6 +30,7 @@
           {% assign url = item %}
           {% if item == 'posts' and page.layout == 'post' %}
             {% assign url = '/' %}
+            {% assign item = '随笔' %}
           {% endif %}
           <a href="{{ url | relative_url }}">
             {{ item | capitalize }}
