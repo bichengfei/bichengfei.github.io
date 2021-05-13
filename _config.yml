@@ -155,10 +155,10 @@ exclude:
   - '*.json'
 
 jekyll-archives:
-  enabled: [分类, 标签]
+  enabled: [categories, tags]
   layouts:
-    分类: category
-    标签: tag
+    category: category
+    tag: tag
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
