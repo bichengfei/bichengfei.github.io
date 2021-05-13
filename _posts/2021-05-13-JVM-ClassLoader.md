@@ -79,9 +79,7 @@ public class Sub extends Parent {
 2. Class文件中的信息进入到虚拟机后发生什么变化？
 
 ## 类加载的时机
-![111](/assets/img/favicons/3.png)
-![图-02](/_posts/text/jvm/classLoader/image/lifecycle.jpg 'Class文件在JVM内存中的生命周期')
-![图-01](./text/jvm/classLoader/image/lifecycle.jpg 'Class文件在JVM内存中的生命周期')类从加载到内存（虚拟机内存）开始，到卸载出内存为止，生命周期包括上面七个阶段，验证、准备、解析，统称为连接。类加载的过程也只包括了前5步。  
+![图-01](/assets/img/blogs/jvm/classLoader/lifecycle.jpg 'Class文件在JVM内存中的生命周期')类从加载到内存（虚拟机内存）开始，到卸载出内存为止，生命周期包括上面七个阶段，验证、准备、解析，统称为连接。类加载的过程也只包括了前5步。  
 第一阶段也就是加载发生的时间虚拟机规范没有要求，不同实现不同，连接、使用、卸载，这三个没有分析必要，一般对类加载实际的分析集中在"初始化"上。
 
 ## 类加载的过程
@@ -138,7 +136,7 @@ JVM系统自带的类加载器有三种：
 1. 应用程序类加载器(Application ClassLoader)
 
 ### 双亲委派机制
-![JVM类加载器模型](./text/jvm/classLoader/image/ClassLoader.png 'JVM类加载器模型')
+![JVM类加载器模型](/assets/img/blogs/jvm/classLoader/ClassLoader.png 'JVM类加载器模型')
 
 双亲委派机制工作过程：
 
