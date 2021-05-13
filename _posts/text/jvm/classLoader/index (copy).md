@@ -1,17 +1,9 @@
----
-title: JVM 类加载机制
-author: BiChengfei
-date: 2021-05-13 15:53:00 +0800
-categories: [JAVA]
-tags: [JVM, 类加载, 双亲委派机制]
-pin: true
----
-
+# JVM类加载机制
 参考：  
 1. [《深入理解java虚拟机》 --周志明](https://baike.baidu.com/item/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/10749828?fr=aladdin)
 
 ## 疑问
-[清单](./text/jvm/classLoader/query.md)
+[清单](./query.md)
 
 ## 概述
 虚拟机把描述类的数据从Class文件加载到内存，并对数据进行检验、转换解析和初始化，最终形成可以被虚拟机直接使用的Java类型，这就是虚拟机的类加载机制。
@@ -19,17 +11,17 @@ pin: true
 2. Class文件中的信息进入到虚拟机后发生什么变化？
 
 ## 类加载的时机
-![图-01](./text/jvm/classLoader/image/lifecycle.jpg 'Class文件在JVM内存中的生命周期')
+![图-01](./image/lifecycle.jpg 'Class文件在JVM内存中的生命周期')
 类从加载到内存（虚拟机内存）开始，到卸载出内存为止，生命周期包括上面七个阶段，验证、准备、解析，统称为连接。类加载的过程也只包括了前5步。  
 第一阶段也就是加载发生的时间虚拟机规范没有要求，不同实现不同，连接、使用、卸载，这三个没有分析必要，一般对类加载实际的分析集中在[初始化](./init.md)上。
 ## 类加载的过程
-### [加载](./text/jvm/classLoader/loading.md)
+### [加载](./loading.md)
 加载过程主要完成三件事情：
 1. 通过类的全限定名来获取定义此类的二进制字节流
 2. 将这个类字节流代表的静态存储结构转为方法区的运行时数据结构
 3. 在堆中生成一个代表此类的java.lang.Class对象，作为访问方法区这些数据结构的入口
 
-### [连接](./text/jvm/classLoader/linking.md)
+### [连接](./linking.md)
 #### 验证
 此阶段主要确保Class文件的字节流中包含的信息符合当前虚拟机的要求，并且不会危害虚拟机的自身安全
 
@@ -56,7 +48,7 @@ pin: true
 1. 类方法解析
 1. 接口方法解析
 
-### [初始化](./text/jvm/classLoader/init.md)
+### [初始化](./init.md)
 虚拟机规范严格规定有且只有5种情况必须对类进行“初始化”
 1. 遇到new、getstatic、ptstatic、invokestatic 4条字节码指令时
    + 使用new
@@ -67,7 +59,7 @@ pin: true
 4. 虚拟机启动，主类初始化（main()方法）
 5. 当使用JDK 1.7的动态语言支持时，如果一个java.lang.invoke.MethodHandle实例最后的解析结果REF_getStatic、REF_putStatic、REF_invokeStatic的方法句柄，并且这个方法句柄所对应的类没有过初始化，则需要先触发其初始化。
 
-### [使用和卸载](./text/jvm/classLoader/usingAndUnloading.md)
+### [使用和卸载](./usingAndUnloading.md)
 ## 类加载器
 JVM系统自带的类加载器有三种：
 1. 启动类加载器(Bootstrap ClassLoader)
@@ -75,7 +67,7 @@ JVM系统自带的类加载器有三种：
 1. 应用程序类加载器(Application ClassLoader)
 
 ### 双亲委派机制
-![JVM类加载器模型](./text/jvm/classLoader/image/ClassLoader.png 'JVM类加载器模型')
+![JVM类加载器模型](./image/ClassLoader.png 'JVM类加载器模型')
 
 双亲委派机制工作过程：
 
