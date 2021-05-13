@@ -6,11 +6,11 @@ panel:
   toc: Contents
 
 post:
-  relate_posts: Further Reading
+  relate_posts: 延伸阅读
   share: Share
   button:
-    next: Newer
-    previous: Older
+    next: 后一篇
+    previous: 前一篇
 
 search_hint: Search   # text show on search bar
 
