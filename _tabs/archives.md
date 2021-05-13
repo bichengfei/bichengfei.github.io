@@ -1,6 +1,6 @@
 ---
 layout: archives
-title: Archives
+title: 时序记录
 icon: fas fa-archive
 order: 3
 ---
