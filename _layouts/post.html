@@ -120,6 +120,10 @@ layout: default
       {% include disqus.html %}
     {% endif %}
 
+    {% if site.gitalk.comments and page.comments %}
+      {% include gitalk.html %}
+    {% endif %}
+
     </div> <!-- #post-extend-wrapper -->
 
   </div> <!-- .col-* -->
