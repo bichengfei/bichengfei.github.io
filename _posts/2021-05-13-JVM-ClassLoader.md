@@ -10,8 +10,7 @@ pin: true
 参考：  
 1. [《深入理解java虚拟机》 --周志明](https://baike.baidu.com/item/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/10749828?fr=aladdin)
 
-## 疑问
-# 疑问
+### 思考几个小问题
 
 1. 这三种都是在什么时候被初始化和赋值，在类加载中有什么不同？
 ```
@@ -54,7 +53,10 @@ public class Main {
 ```
 Sub对象初始化了吗？Parent对象初始化了吗？
 
-4.
+4.`new Sub()`时，`base`,`parent`,`sub`，哪些会被赋值
+
+`Sub sub = new Sub();sub.base;`时，`base`,`parent`,`sub`，哪些会被赋值
+
 ```
 public interface Base {
 	static int base = 1;
@@ -70,9 +72,6 @@ public class Sub extends Parent {
 	static int sub = 3;
 }
 ```
-- `new Sub()`时，`base`,`parent`,`sub`，哪些会被赋值
-- `Sub sub = new Sub();sub.base;`时，`base`,`parent`,`sub`，哪些会被赋值
-
 ## 概述
 虚拟机把描述类的数据从Class文件加载到内存，并对数据进行检验、转换解析和初始化，最终形成可以被虚拟机直接使用的Java类型，这就是虚拟机的类加载机制。
 1. 虚拟机是如何加载Class文件的？  
