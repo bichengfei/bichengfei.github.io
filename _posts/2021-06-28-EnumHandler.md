@@ -3,7 +3,7 @@ title: EnumHandler
 author: BiChengfei
 date: 2021-06-28
 categories: [JAVA]
-tags: [JAVA、Mybatis]
+tags: [JAVA, Mybatis]
 pin: true
 ---
 
