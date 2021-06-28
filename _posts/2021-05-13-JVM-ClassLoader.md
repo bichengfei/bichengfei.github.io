@@ -3,7 +3,7 @@ title: JVM 类加载机制
 author: BiChengfei
 date: 2021-05-13 15:53:00 +0800
 categories: [JAVA]
-tags: [JVM, 类加载, 双亲委派机制]
+tags: [JAVA, JVM]
 pin: true
 ---
 
