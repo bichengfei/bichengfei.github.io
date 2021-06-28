@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 <script type="text/javascript" src="/assets/js/md5.min.js"></script>
-<div><span>1234312312312312313</span></div>
 <div id="gitalk-container"></div>
 <script type="text/javascript">
     var gitalk = new Gitalk({
@@ -14,6 +13,5 @@
         id: md5(location.pathname),
 
     });
-    console.log(2222222222222);
     gitalk.render('gitalk-container');
 </script>
