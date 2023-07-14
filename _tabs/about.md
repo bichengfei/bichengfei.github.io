@@ -35,9 +35,9 @@ order: 4
 
 财富管理平台开发、维护
 
-综合营销运营平台中单独模块的设计、架构、开发，标准版私有化部署交付
+综合营销运营平台中单独模块的设计、架构、开发
 
-业绩&成长：维护着大型财富管理 SaaS 系统，也参与过营销产品业务线的从0到1，在两个系统中都担任核心角色。2023年开始，和产品、测试、前端、运营同学一起，负责标准版私有化部署的技术部分
+2023年开始，和产品、测试、前端、运营同学一起，负责标准版私有化部署的技术部分
 
 <B>2019/6 - 2020/12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   中科软 / 鹍骐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    JAVA 开发</B>
 
