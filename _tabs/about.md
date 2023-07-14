@@ -1,5 +1,6 @@
 ---
-title: 毕成飞
+title: 关于
+dynamic_title: 毕成飞
 icon: fas fa-info
 order: 4
 ---
