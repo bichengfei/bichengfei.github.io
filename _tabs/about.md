@@ -23,25 +23,24 @@ order: 4
 7. 有前端开发能力；
 8. 爱思考，实践性强，善于解决工作中的问题，可单独负责模块架构和开发
 
+## 教育经历
+
+&nbsp;&nbsp;&nbsp;&nbsp;湖北文理学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015-2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全日制统招本科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;计算机科学与技术
+
 ## 个人项目
-
-- [https://github.com/bichengfei/EnumHandler](https://github.com/bichengfei/EnumHandler)
-  
+- [https://github.com/bichengfei/EnumHandler](https://github.com/bichengfei/EnumHandler)  
   MyBatis 中枚举类型处理器的扩展
-
 ## 工作经验
 
 <B>2021/1 - 至今 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NewBanker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JAVA 开发</B>
 
-财富管理平台开发、维护
-
-综合营销运营平台中单独模块的设计、架构、开发
-
-2023年开始，和产品、测试、前端、运营同学一起，负责标准版私有化部署的技术部分
+- 财富管理平台开发、维护
+- 综合营销运营平台中单独模块的设计、架构、开发，标准版私有化部署交付
+- 2023年开始，和产品、测试、前端、运营同学一起，负责标准版私有化部署的技术部分
 
 <B>2019/6 - 2020/12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   中科软 / 鹍骐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    JAVA 开发</B>
 
-JAVA 后台研发、部分前端开发、数据库设计
+- JAVA 后台研发、部分前端开发、数据库设计
 
 ## 项目经验
 
@@ -57,7 +56,7 @@ JAVA 后台研发、部分前端开发、数据库设计
   4. 设计、开发知识社区消息通知；
   5. 设计、开发知识社区积分排行榜；
   6. 开发直播管理；
-  7. 负责标准版客户交付，主要涉及渠道、公司架构、基金产品、基金经理对接，部分定制化需求；
+  7. 负责标准版客户交付，主要进行客户数据对接；
 难点：
   1. 知识库消息，评论时的消息通知，逻辑比较复杂，最后通过栈结构，顺利处理；
   2. 知识库积分排行榜，难点主要在于灵活配置、接口响应时间、实时更新，最终通过数据懒加载 + Redis 的 zset、String 、Hash 结构 + 数据埋点，做到实时响应
@@ -67,7 +66,7 @@ JAVA 后台研发、部分前端开发、数据库设计
 ##### 财富管理平台 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2021/1 - 至今
 
 ```
-产品概述：针对财富管理公司的管理平台，SaaS + 私有化部署，覆盖投资人小程序、投资人APP、理财师APP、WEB 管理后台、内容中心
+产品概述：针对财富管理公司的管理平台，SAAS + 私有化部署，覆盖 投资人小程序、投资人APP、理财师APP、WEB 管理后台、内容中心
 技术栈：JAVA + Spring Boot + Mybatis + Dubbo + Zookeeper + Redis + MySQL
 主要工作内容：
   1. 开发产品预约中心；
@@ -75,9 +74,9 @@ JAVA 后台研发、部分前端开发、数据库设计
   3. 开发产品中心；
   4. 设计、开发积分商场；
   5. 私有化部署二次开发；
-  6. SaaS 系统维护；
+  6. SAAS 系统维护；
 难点：
-  1. 和另一位同事一起，维护一个近 50 个微服务，迭代近 5 年的 SaaS 系统，目前仍在正常运行，同时单人还需要维护 4 个大客户的私有化部署系统，提升了自身的代码阅读能力；
+  1. 和另一位同事一起，维护一个近 50 个微服务，迭代近 5 年的 SAAS 系统，目前仍在正常运行，同时单人还需要维护 4 个大客户的私有化部署系统，提升了自身的代码阅读能力；
   2. B 端的产品预约单列表和导出优化，因为预约中心处理太过复杂，并且旧代码有坑，循环套循环，导致数据库连接全部被占用，其他业务被阻塞，最后通过 SQL 代替部分程序和 SQL 优化，提升查询效率和避免系统故障；
   3. 自定义 Mybatis 枚举类型处理器，提升工作效率；
 ```
